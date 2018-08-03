@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"
+    <head>
+        <meta charset="utf-8">
+        <title>ToDo List</title>
+        <link rel="stylesheet" href="master.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="content">
+            <h1 id="TaskList">Task list</h1>
+            <form class="TaskForm" action="index.html" method="post">
+                <input id= "TaskInput" type="text" name="" value="" placeholder="Add task"> <br>
+            </form>
+
+            <button id="addBtn" type="button" name="Add">Add</button>
+
+            <h2>Tasks</h2>
+            <form class="FilterForm" action="index.html" method="post">
+                <input id= "Filter" type="text" name="" value="" placeholder="Filter tasks"> <br>
+            </form>
+            <ul>
+
+            </ul>
+            <button id="ClearBtn" type="button" name="Delete">Clear  Tasks</button>
+        </div>
+
+        <script src="ToDo.js" charset="utf-8"></script>
+    </body>
+</html>
